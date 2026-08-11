@@ -1,38 +1,27 @@
+<p align="center"><img src="docs/banner.svg" alt="SlimefunOreChunks banner" width="100%"></p>
+
 # SlimefunOreChunks
 
-Fragmentos de mena que se procesan para obtener mas rendimiento del minado.
+Mining progression built around recoverable ore fragments. Ore chunks add an intermediate
+processing step that rewards infrastructure without replacing vanilla exploration.
 
-Adaptación de DrakesCraft para **Paper/Purpur 1.21.11** y Java 21.
+## DrakesCraft edition
 
-## Qué es
+- Targets Java 21 and Paper/Purpur 1.21.11.
+- Provides 11 registered Slimefun items through the Drakes compatibility API.
+- Keeps item IDs and the original package layout stable for existing worlds.
+- Uses maintained Maven dependencies and deterministic builds.
 
-Fragmentos de mena que se procesan para obtener mas rendimiento del minado.
+## Building
 
-Aporta **11 objetos** repartidos en 3 clases.
+```bash
+mvn -B -ntp clean package
+```
 
-## Qué cambiamos
+Install the JAR from `target/` together with
+[`Slimefun4-Drake`](https://github.com/DrakesCraft-Labs/Slimefun4-Drake).
 
-Este repositorio **no es un fork**: es el código original integrado en el ecosistema de
-DrakesCraft. Los cambios son de compatibilidad, no de contenido:
+## Provenance
 
-- Los paquetes de Slimefun pasan de `io.github.thebusybiscuit` a `com.github.drakescraft_labs`,
-  que es como está repaquetado nuestro core. Sin eso, el addon no encuentra ni una clase.
-- Compila contra Java 21 y `paper-api` 1.21.1, en vez de las versiones de su época.
-- Se actualizan dependencias que vivían en repositorios de Maven que ya no responden.
-
-El paquete propio del addon y sus nombres de clase **se dejan intactos**, para que las
-actualizaciones de arriba sigan siendo legibles y se pueda comparar con el original.
-
-## Instalación
-
-Necesita Slimefun de DrakesCraft (`Slimefun4-Drake`). Se pone el jar en `plugins/` y listo.
-
-## Crédito
-
-El trabajo de fondo es de los autores originales. Nosotros solo lo hemos adaptado.
-
-- Origen: https://github.com/SlimefunGuguProject/SlimefunOreChunks.git
-- Licencia: **MIT**
-
-La licencia original se conserva sin tocar en este repositorio. Si eres el autor y prefieres
-que retiremos esta adaptación, escríbenos y se quita.
+Integrated from [SlimefunGuguProject/SlimefunOreChunks](https://github.com/SlimefunGuguProject/SlimefunOreChunks).
+The original authorship and MIT license remain intact.
