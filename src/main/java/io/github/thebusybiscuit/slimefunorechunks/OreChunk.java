@@ -1,4 +1,4 @@
-package com.github.drakescraft_labs.slimefunorechunks;
+package io.github.thebusybiscuit.slimefunorechunks;
 
 import java.util.Locale;
 
