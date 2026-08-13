@@ -11,7 +11,6 @@ import com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemSta
 import com.github.drakescraft_labs.slimefun4.libraries.dough.skins.PlayerHead;
 import com.github.drakescraft_labs.slimefun4.libraries.dough.skins.PlayerSkin;
 import com.github.drakescraft_labs.slimefun4.libraries.dough.config.Config;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 
 public class OreChunks extends JavaPlugin implements SlimefunAddon {
 
@@ -19,9 +18,13 @@ public class OreChunks extends JavaPlugin implements SlimefunAddon {
 	public void onEnable() {
 		Config cfg = new Config(this);
 		
-		if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-			new GitHubBuildsUpdater(this, getFile(), "ybw0014/SlimefunOreChunks-CN/master").start();
-		}
+        // Aqui iba el autoactualizador, que se traia el jar del repositorio de upstream.
+        //
+        // Se quita entero en vez de apagarlo por configuracion: este jar esta recompilado contra
+        // el Slimefun repaquetado del servidor, asi que bajarse el de upstream encima dejaria el
+        // addon sin cargar. Hasta ahora lo unico que lo frenaba era que su condicion exige una
+        // version que empiece por "DEV", y las nuestras no -- una coincidencia que se rompe el dia
+        // que alguien toque la cadena de version. Se despliega por SFTP, como el resto.
 		
 		ItemGroup itemGroup = new ItemGroup(new NamespacedKey(this, "ore_chunks"), new CustomItemStack(PlayerHead.getItemStack(PlayerSkin.fromHashCode("dde8f949bbf3a42782c531fbf8de9dc2d8cd84dd7cb8f5d5328eeda83956aac8")), "&6Fragmentos de Mineral"));
 		
