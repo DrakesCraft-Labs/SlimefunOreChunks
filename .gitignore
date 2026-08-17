@@ -6,3 +6,5 @@
 .project
 .classpath
 dependency-reduced-pom.xml
+build/
+.gradle/

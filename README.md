@@ -1,36 +1,42 @@
-# SlimefunOreChunks 矿石块
-
-SlimefunOreChunks 是一个 Slimefun4 附属插件。
-你需要安装 Slimefun4 才能让此插件运行。
-
-该附属向GEO矿机添加了新的产物：矿石块。一共有9种矿石块，分别对应着9种Slimefun金属，你可以在矿石粉碎机中粉碎矿石块来获得对应的矿粉。
-
-要注意的是，这些矿石并不会自然生成，你只能通过GEO矿机获得它们。
-
-## 下载 SlimefunOreChunks
-
-你可以在这里下载SlimefunOreChunks: [下载SlimefunOreChunks](https://builds.guizhanss.net/ybw0014/SlimefunOreChunks-CN/master)
-
 <p align="center">
-  <a href="https://github.com/ybw0014/SlimefunOreChunks-CN/actions/workflows/maven.yml">
-    <img src="https://github.com/ybw0014/SlimefunOreChunks-CN/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
-  </a>
-
-  <a href="https://builds.guizhanss.net/ybw0014/SlimefunOreChunks-CN/master">
-    <img src="https://builds.guizhanss.net/f/ybw0014/SlimefunOreChunks-CN/master/badge.svg" alt="Build status"/>
-  </a>
+  <img src="docs/banner.svg" width="100%" alt="SLIMEFUNORECHUNKS Animated Banner" />
 </p>
 
-## Discord
+# SlimefunOreChunks
 
-你可以在Discord上找到Slimefun社区!
-点击下方的图片即可加入我们的服务器。你可以讨论本插件、提问题或给出宝贵的建议。
+Addon de **Slimefun 4** que expande la producción de minerales mediante **fragmentos y bloques de mena concentrados (Ore Chunks)** obtenidos exclusivamente a través del Minero GEO (GEO-Miner). Portado, traducido y mantenido por **DrakesCraft Labs** para Paper/Purpur 1.21.11 en Java 21.
 
-<p align="center">
-  <a href="https://discord.gg/fsD4Bkh">
-    <img src="https://img.shields.io/discord/565557184348422174?color=7289DA&label=Discord&style=for-the-badge" alt="Discord Invite"/>
-  </a>
-</p>
+---
 
-## 开源
-本项目以[MIT协议](/LICENSE)开源。
+## 🎯 Objetivo
+
+Mejorar el rendimiento y la eficiencia de la minería automatizada de Slimefun, permitiendo procesar bloques de mena densos en trituradoras industriales para multiplicar el rendimiento de polvos metálicos y gemas.
+
+---
+
+## ⚡ Características Principales
+
+- **9 Tipos de Bloques de Mena Especiales**:
+  - Correspondientes a los metales y aleaciones clave de Slimefun (Cobre, Plata, Estaño, Plomo, Aluminio, Zinc, Magnesio, etc.).
+- **Obtención Exclusiva GEO**:
+  - No se generan de forma natural en el terreno; se extraen mediante prospección geológica y Mineros GEO automatizados.
+- **Cadena de Trituración & Refinado**:
+  - Se procesan en trituradoras de mineral para obtener polvos puros con un multiplicador de rendimiento superior.
+- **Traducción Depurada**:
+  - Textos completamente en español sin residuos de traducción automática.
+
+---
+
+## 🛠️ Entorno y Compatibilidad
+
+- **Servidor**: Paper / Purpur 1.21.11
+- **Java**: 21
+- **Dependencias**:
+  - `Slimefun4-Drake`
+
+---
+
+## 📜 Créditos y Origen
+
+- **Autor original**: `ybw0014`
+- **Adaptación y Mantenimiento 1.21.11**: **DrakesCraft Labs**

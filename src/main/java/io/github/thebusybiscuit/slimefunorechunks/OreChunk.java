@@ -1,15 +1,15 @@
-package io.github.thebusybiscuit.slimefunorechunks;
+package com.github.drakescraft_labs.slimefunorechunks;
 
 import java.util.Locale;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import com.github.drakescraft_labs.slimefun4.core.multiblocks.MultiBlockMachine;
+import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
+import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
 
 public class OreChunk extends SlimefunItem {
 
@@ -20,7 +20,7 @@ public class OreChunk extends SlimefunItem {
     private final ItemStack output;
 
     public OreChunk(OreChunks plugin, ItemGroup itemGroup, String id, String name, int amplifier, String texture, ItemStack output) {
-        this(plugin, itemGroup, id, name, "&7使用矿石粉碎机粉碎以获得矿粉", amplifier, texture, RecipeType.ORE_CRUSHER, output);
+        this(plugin, itemGroup, id, name, "&7Utilice una trituradora de mineral para triturar y obtener polvo de mineral.", amplifier, texture, RecipeType.ORE_CRUSHER, output);
     }
 
     public OreChunk(OreChunks plugin, ItemGroup itemGroup, String id, String name, String lore, int amplifier, String texture, RecipeType machine, ItemStack output) {

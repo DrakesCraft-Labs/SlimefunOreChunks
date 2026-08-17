@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.slimefunorechunks;
+package com.github.drakescraft_labs.slimefunorechunks;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -7,7 +7,7 @@ import org.bukkit.World.Environment;
 import org.bukkit.block.Biome;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
+import com.github.drakescraft_labs.slimefun4.api.geo.GEOResource;
 
 public class OreResource implements GEOResource {
 	
