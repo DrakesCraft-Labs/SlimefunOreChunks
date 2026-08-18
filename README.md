@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimefunOreChunks/master/docs/banner.svg" width="100%" alt="SLIMEFUNORECHUNKS Animated Banner" />
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimefunOreChunks/master/banner.svg" width="100%" alt="SLIMEFUNORECHUNKS Animated Banner" />
 </p>
 
 # SlimefunOreChunks
