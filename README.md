@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/banner.svg" alt="SlimefunOreChunks banner" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimefunOreChunks/main/banner.svg" alt="SlimefunOreChunks banner" width="100%"></p>
 
 # SlimefunOreChunks
 
