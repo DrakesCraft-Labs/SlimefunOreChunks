@@ -35,3 +35,13 @@ Install the JAR from `target/` together with
 
 Integrated from [SlimefunGuguProject/SlimefunOreChunks](https://github.com/SlimefunGuguProject/SlimefunOreChunks).
 The original authorship and MIT license remain intact.
+
+## ⚖️ Upstream Attribution & License / Licencia y Créditos
+
+- **Original Project / Upstream**: Slimefun4 Community Addon.
+- **Port & Maintenance**: DrakesCraft Labs team (Compatibility for Paper / Purpur 1.21.11).
+- **License**: GPL-3.0 / MIT.
+- **Source Code**: [GitHub Repository](https://github.com/DrakesCraft-Labs/SlimefunOreChunks)
+- **Support & Issues**: [GitHub Issues](https://github.com/DrakesCraft-Labs/SlimefunOreChunks/issues) | [Discord](https://discord.gg/rR7FbfCt9Y)
+
+*This project is an open-source derivative work maintained by DrakesCraft Labs under the terms of its original license. All original assets and concepts belong to their respective creators.*
